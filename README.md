@@ -1,27 +1,23 @@
-# Gen Z Career Aspirations — Data Project
+# Gen Z Career Aspirations — Dataset & Analysis Plan
 
 ## Overview
-This repository contains a normalized Excel dataset related to Gen Z career aspirations. It can serve as a starting point for exploring career preferences, respondent segments, and patterns in the data.
+This repository contains a normalized Excel workbook related to Gen Z career aspirations. The workbook is a dataset asset; this repository does not yet document a completed analytical report.
 
-## File
-- `ANAC6 - Final Normalized Data.xlsx` — normalized dataset.
+## Dataset
+- [ANAC6 - Final Normalized Data.xlsx](./ANAC6%20-%20Final%20Normalized%20Data.xlsx)
 
-## Suggested analysis workflow
-1. Inspect columns, data types, categories, and missing values.
-2. Validate duplicates and consistency across categories.
-3. Define analysis questions before drawing conclusions.
-4. Explore distributions and compare relevant respondent groups.
-5. Present verified findings using Excel charts or a Power BI dashboard.
+## Suggested analyst workflow
+1. Inspect worksheets, columns, data types, category definitions, and record counts.
+2. Check missing values, duplicate records, inconsistent labels, and valid ranges.
+3. Document the source, collection method, and meaning of each field.
+4. Form specific questions and calculate descriptive summaries.
+5. Build charts or a Power BI report and record only findings supported by the workbook.
 
 ## Tools
-- Microsoft Excel
-- Data inspection and validation
+Microsoft Excel; further analysis can be performed with Python/pandas or Power BI.
 
-## Current scope
-The repository currently includes the dataset. Analysis results, charts, data dictionary, and methodology should be added as they are completed. No findings or business impact are claimed here until they are validated.
+## Reproducibility and privacy
+The workbook is the source asset for this project. Before sharing it publicly, confirm that its source permits redistribution and that it contains no personal, confidential, or otherwise sensitive respondent-level data. Keep an untouched source copy and document any cleaning steps.
 
-## Next improvements
-- Add a data dictionary and source/context for the dataset.
-- Document cleaning and normalization steps.
-- Add a reproducible analysis workbook and screenshots of key visuals.
-- Record findings with supporting numbers and caveats.
+## Current status
+The repository currently provides the workbook only. No statistical findings, business impact, or dashboard are claimed here until the data has been inspected and analyzed.
